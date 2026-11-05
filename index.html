@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Менеджер контактів</h1>
+
+        <h2>Додати контакт</h2>
+
+        <input type="text" id="firstName" placeholder="Ім'я">
+        <input type="text" id="lastName" placeholder="Прізвище">
+        <input type="tel" id="phone" placeholder="Телефон">
+        <input type="email" id="email" placeholder="Email">
+
+        <button class="add-btn" onclick="saveContact()">
+            Зберегти контакт
+        </button>
+
+        <h2>Список контактів</h2>
+
+        <div id="contactsList"></div>
+    </div>
+
+
+
+    <script src="./js/task1.js" type="module"></script>
+</body>
+</html>
